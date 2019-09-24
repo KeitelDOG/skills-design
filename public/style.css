@@ -1,0 +1,13 @@
+.logo {
+  display: inline-block;
+  width: 60px;
+  cursor: pointer;
+}
+.logo img {
+  max-width: 60px;
+  max-height: 60px;
+}
+.top-ant-menu {
+  margin-left: 50px;
+  display: inline-block;
+}

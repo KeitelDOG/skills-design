@@ -1,0 +1,41 @@
+{
+  "name": "skills-design",
+  "version": "1.0.0",
+  "description": "Ant Design learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeitelDOG/skills-design.git"
+  },
+  "keywords": [
+    "ant",
+    "design",
+    "skills"
+  ],
+  "author": "KeitelDOG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeitelDOG/skills-design/issues"
+  },
+  "homepage": "https://github.com/KeitelDOG/skills-design#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "antd": "^3.23.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
